@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'task.dart';
+import 'package:task2/Bloc_Cubit/models/task.dart';
 import 'dart:collection';
 
 class TaskData extends Cubit<List<Task>> {

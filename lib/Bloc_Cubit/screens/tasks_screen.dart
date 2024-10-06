@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:task2/Bloc_Cubit/task.dart';
-import 'tasks_list.dart';
-import 'add_task_screen.dart';
-import 'task_data.dart';
+import 'package:task2/Bloc_Cubit/models/task.dart';
+import 'package:task2/Bloc_Cubit/widgets/tasks_list.dart';
+import 'package:task2/Bloc_Cubit/screens/add_task_screen.dart';
+import 'package:task2/Bloc_Cubit/cubit/task_data.dart';
 
 class TasksScreen extends StatelessWidget {
   const TasksScreen({super.key});
